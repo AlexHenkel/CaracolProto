@@ -8,6 +8,7 @@
 @import "partials/buttons";
 @import "partials/colors";
 @import "partials/layout";
+@import "partials/input";
 
 /* ==========================================================================
 Global Styles
@@ -245,12 +246,19 @@ Hero
   min-height: 750px;
   position: relative;
 
+  &.not-title {
+    min-height: auto;
+  }
+
   .down-arrow a {
     color: $txt-light;
   }
   h1 {
     color: $txt-light;
     margin-bottom: 40px;
+    &.dark {
+      color: $h2-color;
+    }
   }
   p.intro {
     color: $txt-light;

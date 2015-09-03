@@ -54,7 +54,7 @@ $(document).ready(function() {
 			var scroll = $(window).scrollTop();
 
 			if (scroll >= 20) {
-				$('section.navigation').addClass('fixed');
+				$('section.navigation.not-fixed').addClass('fixed');
 				$('header').css({
 					"border-bottom": "none",
 					"padding": "35px 0"
@@ -66,7 +66,7 @@ $(document).ready(function() {
 					"top": "34px",
 				});
 			} else {
-				$('section.navigation').removeClass('fixed');
+				$('section.navigation.not-fixed').removeClass('fixed');
 				$('header').css({
 					"border-bottom": "solid 1px rgba(255, 255, 255, 0.2)",
 					"padding": "50px 0"
