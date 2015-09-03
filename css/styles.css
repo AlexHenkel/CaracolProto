@@ -491,7 +491,8 @@ Hero
   min-height: 750px;
   position: relative; }
   .hero.not-title {
-    min-height: auto; }
+    min-height: auto;
+    margin-bottom: 40px; }
   .hero .down-arrow a {
     color: #fff; }
   .hero h1 {

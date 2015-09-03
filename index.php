@@ -30,7 +30,7 @@
         <section class="navigation not-fixed">
             <header>
                 <div class="header-content">
-                    <div class="logo"><a href="#"><img src="img/logo.png" alt="Sedna logo"></a></div>
+                    <div class="logo"><a href="index.php"><img src="img/logo.png" alt="Sedna logo"></a></div>
                     <div class="header-nav">
                         <nav>
                             <ul class="primary-nav">
@@ -40,7 +40,7 @@
                             </ul>
                             <ul class="member-actions">
                                 <li><a href="#download" class="login btn-white btn-small">Acceder</a></li>
-                                <li><a href="#download" class="btn-small">Regístrate</a></li>
+                                <li><a href="registro.php" class="btn-small">Regístrate</a></li>
                             </ul>
                         </nav>
                     </div>
