@@ -66,7 +66,7 @@
                             </label>
                         </span>
                         <!-- add type="submit" to the button -->
-                        <button class="btn-fill sign-up-btn" id="invitation-code">Acceder</button>
+                        <button type="button" class="btn-fill sign-up-btn" id="invitation-code">Acceder</button>
                         <div class="form-hidden">
                             <span class="input input--fumi">
                                 <input class="input__field input__field--fumi" type="text" id="input-23" />

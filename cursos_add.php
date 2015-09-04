@@ -53,54 +53,51 @@
     <section class="sign-up section-padding text-center" id="download">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12">
-                    <h2 class="dashboard-title">Dashboard</h2>
-                    <div class="main">
-                        <ul class="cbp-ig-grid">
-                            <li>
-                                <a href="beneficiario_add.php">
-                                    <span class="cbp-ig-icon cbp-ig-icon-shoe"></span>
-                                    <h3 class="cbp-ig-title">Agregar beneficiario</h3>
-                                    <!-- <span class="cbp-ig-category">Fashion</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="cbp-ig-icon cbp-ig-icon-ribbon"></span>
-                                    <h3 class="cbp-ig-title">Lista de beneficiarios</h3>
-                                    <!-- <span class="cbp-ig-category">Design</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="cursos_add.php">
-                                    <span class="cbp-ig-icon cbp-ig-icon-milk"></span>
-                                    <h3 class="cbp-ig-title">Agregar curso</h3>
-                                    <!-- <span class="cbp-ig-category">Lifestyle</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="cbp-ig-icon cbp-ig-icon-whippy"></span>
-                                    <h3 class="cbp-ig-title">Lista de cursos</h3>
-                                    <!-- <span class="cbp-ig-category">Food</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="cbp-ig-icon cbp-ig-icon-spectacles"></span>
-                                    <h3 class="cbp-ig-title">Inscripciones</h3>
-                                    <!-- <span class="cbp-ig-category">Gadgets</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="cbp-ig-icon cbp-ig-icon-doumbek"></span>
-                                    <h3 class="cbp-ig-title">Tomar lista</h3>
-                                    <!-- <span class="cbp-ig-category">Music</span> -->
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <div class="col-md-6 col-md-offset-3">
+                    <h1>Agregar curso</h1>
+                    <!-- original form: form class="signup-form" action="#" method="POST" role="form" -->
+                    <form class="signup-form">
+                        <div class="form-hidden">
+                            <span class="input input--fumi">
+                                <input class="input__field input__field--fumi" type="text" id="input-23" />
+                                <label class="input__label input__label--fumi" for="input-23">
+                                    <i class="fa fa-fw fa-user icon icon--fumi"></i>
+                                    <span class="input__label-content input__label-content--fumi">Nombre del curso</span>
+                                </label>
+                            </span>
+                            <span class="input input--fumi">
+                                <input class="input__field input__field--fumi" type="text" id="input-23" />
+                                <label class="input__label input__label--fumi" for="input-23">
+                                    <i class="fa fa-fw fa-location-arrow icon icon--fumi"></i>
+                                    <span class="input__label-content input__label-content--fumi">Categoría</span>
+                                </label>
+                            </span>
+                            <span class="input input--fumi">
+                                <input class="input__field input__field--fumi" type="text" id="input-23" />
+                                <label class="input__label input__label--fumi" for="input-23">
+                                    <i class="fa fa-fw fa-envelope icon icon--fumi"></i>
+                                    <span class="input__label-content input__label-content--fumi">Descripción</span>
+                                </label>
+                            </span>
+                            <span class="input input--fumi">
+                                <input class="input__field input__field--fumi" type="text" id="input-23" />
+                                <label class="input__label input__label--fumi" for="input-23">
+                                    <i class="fa fa-fw fa-unlock-alt icon icon--fumi"></i>
+                                    <span class="input__label-content input__label-content--fumi">Ubicación</span>
+                                </label>
+                            </span>
+                            <span class="input input--fumi">
+                                <input class="input__field input__field--fumi" type="text" id="input-23" />
+                                <label class="input__label input__label--fumi" for="input-23">
+                                    <i class="fa fa-fw fa-user icon icon--fumi"></i>
+                                    <span class="input__label-content input__label-content--fumi">Nombre del socio</span>
+                                </label>
+                            </span>
+                            <a href="home.php">
+                                <button type="button" class="btn-fill sign-up-btn">Registrar</button>
+                            </a>
+                        </div>
+                    </form>
 
                 </div>
             </div>
@@ -145,16 +142,5 @@
     <script src="bower_components/classie/classie.js"></script>
     <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="js/vendor/parallax.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $('.form-hidden').hide();
-
-        $('#invitation-code').click(function(e) {
-            e.preventDefault;
-            $('.form-hidden').show();
-            $('#invitation-code').hide();
-        });
-    });
-    </script>
 </body>
 </html>

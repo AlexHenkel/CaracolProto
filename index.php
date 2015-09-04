@@ -137,12 +137,20 @@
                     <h3>Eres colaborador?</h3>
                     <p>Accesa en este sitio</p>
                     <form class="signup-form" action="#" method="POST" role="form">
-                        <div class="form-input-group">
-                            <i class="fa fa-envelope"></i><input type="text" class="" placeholder="Ingresa tu mail" required>
-                        </div>
-                        <div class="form-input-group">
-                            <i class="fa fa-lock"></i><input type="text" class="" placeholder="Ingresa tu contraseña" required>
-                        </div>
+                        <span class="input input--fumi">
+                            <input class="input__field input__field--fumi" type="text" id="input-23" />
+                            <label class="input__label input__label--fumi" for="input-23">
+                                <i class="fa fa-fw fa-envelope icon icon--fumi"></i>
+                                <span class="input__label-content input__label-content--fumi">Ingresa tu email</span>
+                            </label>
+                        </span>
+                        <span class="input input--fumi">
+                            <input class="input__field input__field--fumi" type="text" id="input-23" />
+                            <label class="input__label input__label--fumi" for="input-23">
+                                <i class="fa fa-fw fa-unlock-alt icon icon--fumi"></i>
+                                <span class="input__label-content input__label-content--fumi">Ingresa tu contraseña</span>
+                            </label>
+                        </span>
                         <button type="submit" class="btn-fill sign-up-btn">Acceder</button>
                     </form>
                 </div>

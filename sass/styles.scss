@@ -9,6 +9,7 @@
 @import "partials/colors";
 @import "partials/layout";
 @import "partials/input";
+@import "partials/dashboard";
 
 /* ==========================================================================
 Global Styles
@@ -95,6 +96,11 @@ ul li {
   text-transform: capitalize;
   background-color: #000;
   border-radius: 4px;
+}
+
+.dashboard-title {
+  text-align: left;
+  margin-bottom: 20px;
 }
 /* ==========================================================================
 Animations
