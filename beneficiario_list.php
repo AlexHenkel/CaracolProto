@@ -50,55 +50,25 @@
             </header>
         </section>
     </section>
-    <section class="sign-up section-padding text-center" id="download">
+    <section class="sign-up section-padding" id="download">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h2 class="dashboard-title">Dashboard</h2>
+                    <h2 class="dashboard-title">Lista de alumnos</h2>
                     <div class="main">
-                        <ul class="cbp-ig-grid">
-                            <li>
-                                <a href="beneficiario_add.php">
-                                    <span class="cbp-ig-icon cbp-ig-icon-shoe"></span>
-                                    <h3 class="cbp-ig-title">Agregar beneficiario</h3>
-                                    <!-- <span class="cbp-ig-category">Fashion</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="beneficiario_list.php">
-                                    <span class="cbp-ig-icon cbp-ig-icon-ribbon"></span>
-                                    <h3 class="cbp-ig-title">Lista de beneficiarios</h3>
-                                    <!-- <span class="cbp-ig-category">Design</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="cursos_add.php">
-                                    <span class="cbp-ig-icon cbp-ig-icon-milk"></span>
-                                    <h3 class="cbp-ig-title">Agregar curso</h3>
-                                    <!-- <span class="cbp-ig-category">Lifestyle</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="cursos_list.php">
-                                    <span class="cbp-ig-icon cbp-ig-icon-whippy"></span>
-                                    <h3 class="cbp-ig-title">Lista de cursos</h3>
-                                    <!-- <span class="cbp-ig-category">Food</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <span class="cbp-ig-icon cbp-ig-icon-spectacles"></span>
-                                    <h3 class="cbp-ig-title">Inscripciones</h3>
-                                    <!-- <span class="cbp-ig-category">Gadgets</span> -->
-                                </a>
-                            </li>
-                            <li>
-                                <a href="list.php">
-                                    <span class="cbp-ig-icon cbp-ig-icon-doumbek"></span>
-                                    <h3 class="cbp-ig-title">Tomar lista</h3>
-                                    <!-- <span class="cbp-ig-category">Music</span> -->
-                                </a>
-                            </li>
+                        <ul>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Juan Perez</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Maria Hernandez</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Luis Flores</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Juan Perez</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Maria Hernandez</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Luis Flores</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Juan Perez</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Maria Hernandez</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Luis Flores</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Juan Perez</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Maria Hernandez</a></li>
+                            <li><a data-toggle="modal" data-target=".bs-example-modal-lg">Luis Flores</a></li>
                         </ul>
                     </div>
 
@@ -135,6 +105,20 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <h2>Datos de Juan Perez</h2>
+          <ul>
+              <li><b>Nombre:</b> Juan Perez</li>
+              <li><b>Dirección: Av. Eugenio Garza Sada #2000 Col. Alta Vista CP 64840. Monterrey, Nuevo León</b></li>
+              <li><b>Teléfono:</b>8113456789</li>
+              <li><b>Correo Electrónico</b>hola@example.com</li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
     <script src="bower_components/retina.js/dist/retina.js"></script>
@@ -145,16 +129,5 @@
     <script src="bower_components/classie/classie.js"></script>
     <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
     <script src="js/vendor/parallax.min.js"></script>
-    <script>
-    $(document).ready(function() {
-        $('.form-hidden').hide();
-
-        $('#invitation-code').click(function(e) {
-            e.preventDefault;
-            $('.form-hidden').show();
-            $('#invitation-code').hide();
-        });
-    });
-    </script>
 </body>
 </html>
