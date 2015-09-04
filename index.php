@@ -87,7 +87,7 @@
                 Mira los cursos
                 </h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ea, quasi eum non, nemo, iusto molestiae earum.</p>
-                <a href="cursos.html" class="btn btn-ghost btn-accent btn-large">Ver Cursos</a>
+                <a href="cursos.php" class="btn btn-ghost btn-accent btn-large">Ver Cursos</a>
                 <div class="logo-placeholder floating-logo"><img src="img/img1.png" alt="Sketch Logo"></div>
             </div>
         </div>
@@ -151,7 +151,7 @@
                                 <span class="input__label-content input__label-content--fumi">Ingresa tu contraseña</span>
                             </label>
                         </span>
-                        <button type="submit" class="btn-fill sign-up-btn">Acceder</button>
+                        <a href="home.php"><button type="submit" class="btn-fill sign-up-btn">Acceder</button></a>
                     </form>
                 </div>
             </div>
